@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+h1{
+  margin: 80px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: 'Pangolin', cursive;
+}
+h2{
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  word-spacing: 5px;
+  font-family: 'Pangolin', cursive;
+}
+@font-face {
+  font-family: 'Pangolin';
+  src: url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+}
+.photo {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 110px; /* Adjust the distance from the right as needed */
+}
